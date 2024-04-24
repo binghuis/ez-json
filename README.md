@@ -1,8 +1,8 @@
-# @bit2byte/ez-json
+# @bit2byte/nano-json
 
 ```ts
 import path from "path";
-import EasyJson from "@bit2byte/ez-json";
+import EasyJson from "@bit2byte/nano-json";
 import { PackageJson } from "type-fest";
 
 const pkg = new EasyJson<PackageJson>(path.join(__dirname, "./package.json"));
