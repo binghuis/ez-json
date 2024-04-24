@@ -8,7 +8,7 @@ describe("EasyJson 测试", async () => {
 
   it("测试 json 读改写", async () => {
     await pkg.r();
-    expect(pkg.d?.name).toBe("ez-json");
+    expect(pkg.d?.name).toBe("@binghuis/ez-json");
 
     if (pkg.d) {
       pkg.d.version = "0.0.2";

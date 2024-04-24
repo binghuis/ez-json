@@ -1,8 +1,8 @@
-# ez-json
+# @binghuis/ez-json
 
 ```ts
 import path from "path";
-import EasyJson from "ez-json";
+import EasyJson from "@binghuis/ez-json";
 import { PackageJson } from "type-fest";
 
 const pkg = new EasyJson<PackageJson>(path.join(__dirname, "./package.json"));
