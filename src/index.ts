@@ -1,6 +1,6 @@
 import fs from "fs/promises";
 
-export default class EasyJson<JsonSchema> {
+export default class NanoJson<JsonSchema> {
   private readonly filePath: string;
   private data: JsonSchema | null = null;
 

@@ -1,6 +1,6 @@
 # nano-json
 
-A Nano Tool for Reading and Writing JSON
+A Nano Tool for Reading and Writing JSON.
 
 ## install
 
@@ -10,10 +10,10 @@ A Nano Tool for Reading and Writing JSON
 
 ```ts
 import path from "path";
-import EasyJson from "@bit2byte/nano-json";
 import { PackageJson } from "type-fest";
+import NanoJson from "@bit2byte/nano-json";
 
-const pkg = new EasyJson<PackageJson>(path.join(__dirname, "./package.json"));
+const pkg = new NanoJson<PackageJson>(path.join(__dirname, "./package.json"));
 
 await pkg.r();
 
@@ -24,4 +24,4 @@ if (pkg.d) {
 await pkg.w();
 ```
 
-> Inspired by [@srzorro/file-json](https://github.com/SrZorro/file-json)
+Inspired by [@srzorro/file-json](https://github.com/SrZorro/file-json)
