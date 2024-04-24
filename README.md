@@ -1,6 +1,6 @@
 # nano-json
 
-A Nano Tool for Reading and Writing JSON.
+A Nano Tool for `Reading` and `Writing` JSON.
 
 ![node](https://img.shields.io/badge/Node-339933?logo=nodedotjs&labelColor=263238)
 [![npm version](https://img.shields.io/npm/v/@bit2byte/nano-json)](https://www.npmjs.com/package/@bit2byte/nano-json)
