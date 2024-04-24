@@ -1,4 +1,12 @@
-# @bit2byte/nano-json
+# nano-json
+
+A Nano Tool for Reading and Writing JSON
+
+## install
+
+`pnpm i @bit2byte/nano-json`
+
+## usage
 
 ```ts
 import path from "path";
@@ -16,4 +24,4 @@ if (pkg.d) {
 await pkg.w();
 ```
 
-Inspired by [@srzorro/file-json](https://github.com/SrZorro/file-json)
+> Inspired by [@srzorro/file-json](https://github.com/SrZorro/file-json)
