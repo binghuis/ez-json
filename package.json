@@ -4,6 +4,7 @@
   "description": "",
   "type": "module",
   "types": "./lib/index.d.ts",
+  "private": false,
   "exports": {
     ".": {
       "import": "./lib/index.js",
