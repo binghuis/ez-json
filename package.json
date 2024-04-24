@@ -1,6 +1,6 @@
 {
   "name": "@bit2byte/nano-json",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "description": "A Nano Tool for Reading and Writing JSON.",
   "type": "module",
   "types": "./lib/index.d.ts",

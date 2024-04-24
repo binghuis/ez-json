@@ -18,12 +18,15 @@ import NanoJson from "@bit2byte/nano-json";
 
 const pkg = new NanoJson<PackageJson>(path.join(__dirname, "./package.json"));
 
+// read
 await pkg.r();
 
 if (pkg.d) {
+  // edit
   pkg.d.version = "1.0.0";
 }
 
+// write
 await pkg.w();
 ```
 
